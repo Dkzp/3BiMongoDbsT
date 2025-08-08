@@ -2,7 +2,7 @@
 //      GERENCIAMENTO DA GARAGEM & PERSISTÊNCIA (LocalStorage)
 // ==================================================
 
-const backendUrl = 'http://localhost:3001'; // ATENÇÃO: Use a URL do seu Render aqui quando for publicar!
+const backendUrl = 'https://backend-oh9h.onrender.com/'; // ATENÇÃO: Use a URL do seu Render aqui quando for publicar!
 /** @type {Object.<string, CarroBase>} */
 let garagem = {};
 const GARAGEM_KEY = 'garagemData_v9_apis'; 
